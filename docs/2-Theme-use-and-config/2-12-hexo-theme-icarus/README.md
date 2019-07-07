@@ -112,7 +112,7 @@ comment:
 
 ![Valine Comment](@img/2/2-12/3.png)
 
-如果有的文章不希望别人评论，但是我们又希望把整个站点的评论关闭的话，就需要对指定文章进行评论关闭操作了。操作也很简单，只需要在文章 markdown 文件的 front-matter 区域设置 `comments` 为 `false` 即可：
+如果有的文章不希望别人评论，但是我们又希望把整个站点的评论关闭的话，就需要对指定文章进行评论关闭操作了。操作也很简单，只需要在文章 markdown 文件的 front-matter 区域设置 ~~`comments`~~`comment` 为 `false` 即可：
 
 ```yaml
 ---
